@@ -1,0 +1,18 @@
+span {
+  display: grid;
+  width: 100%;
+}
+
+input {
+  background-color: #E8E8E833;
+  border-radius: 5px;
+  height: 30px;
+  border: 1px solid #43AFFF;;
+}
+
+label {
+  font: normal normal normal 14px/16px Helvetica Neue;
+letter-spacing: 0px;
+color: #303F60;
+margin-bottom: 5px;
+}

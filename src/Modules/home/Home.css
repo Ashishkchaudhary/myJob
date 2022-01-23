@@ -1,0 +1,56 @@
+.homeContainer {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1A253C 0%, #1A253C 300px, #EDF6FF 300px, #EDF6FF 100%);
+  height: fit-content;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  padding: 20px 70px;
+}
+
+/* .header .subHeader {
+  font-size: 20px;
+  color: white;
+  display: flex;
+} */
+
+.header div{
+  display: flex;
+}
+
+.header div span {
+  color: blue;
+}
+
+.header div:nth-child(2) {
+  color: white;
+}
+
+.popupHeader {
+  display: flex; justify-content: space-between; position: relative; width: 100%;
+}
+
+.popupHeader div {
+  color: #000;
+}
+
+.popupBody {
+  color: #000 !important;
+}
+
+.close {
+  color: black !important;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
